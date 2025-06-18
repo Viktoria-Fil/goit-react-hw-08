@@ -1,0 +1,10 @@
+.navBox {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  row-gap: 20px;
+  color: aliceblue;
+  flex-wrap: wrap;
+}

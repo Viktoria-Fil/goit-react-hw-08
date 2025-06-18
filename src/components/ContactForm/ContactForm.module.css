@@ -1,0 +1,27 @@
+.Forma {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 12px;
+  width: 410px;
+  min-height: 210px;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: rgb(2, 54, 114);
+}
+
+.Input {
+  display: flex;
+  flex-direction: column;
+}
+
+.Submit {
+  margin-left: 25%;
+  width: 210px;
+}
+
+@media (prefers-color-scheme: light) {
+  .Forma {
+    background-color: rgb(148, 163, 240);
+  }
+}
