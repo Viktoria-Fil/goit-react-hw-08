@@ -1,0 +1,12 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.field {
+  max-width: 360px;
+  margin-bottom: 16px;
+}

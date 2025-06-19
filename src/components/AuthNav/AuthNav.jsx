@@ -10,14 +10,10 @@ export default function AuthNav() {
     <>
       <ul className={css.navigationBox}>
         <li>
-          <NavLink to="/register" className={linkColor}>
-            Register
-          </NavLink>
+          <NavLink to="/register">Register</NavLink>
         </li>
         <li>
-          <NavLink to="/login" className={linkColor}>
-            Log in
-          </NavLink>
+          <NavLink to="/login">Log in</NavLink>
         </li>
       </ul>
     </>

@@ -29,15 +29,20 @@ export default function RegistrationForm() {
         }}
         onSubmit={handleSubmit}
       >
-        <Form action="#">
+        <Form action="#" className={css.form}>
           <label htmlFor="name">name</label>
-          <Field type="text" id="name" name="name" />
+          <Field type="text" id="name" name="name" className={css.field} />
 
           <label htmlFor="email">email</label>
-          <Field type="email" id="email" name="email" />
+          <Field type="email" id="email" name="email" className={css.field} />
 
           <label htmlFor="password">password</label>
-          <Field type="password" id="password" name="password" />
+          <Field
+            type="password"
+            id="password"
+            name="password"
+            className={css.field}
+          />
           <button type="submit">Register</button>
         </Form>
       </Formik>

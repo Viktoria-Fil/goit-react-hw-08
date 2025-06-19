@@ -1,8 +1,11 @@
 .Filter {
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   border-radius: 12px;
   background-color: rgb(112, 141, 33);
+  max-width: 360px;
+  align-items: center;
 }
 
 .Input {

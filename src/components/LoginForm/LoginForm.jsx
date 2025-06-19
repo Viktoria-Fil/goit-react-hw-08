@@ -18,20 +18,17 @@ export default function LoginForm() {
         }}
         onSubmit={handleSubmit}
       >
-        <Form action="#">
-          <div>
-            <label htmlFor="email">email</label>
-            <Field type="email" id="login" name="email" className={css.input} />
-          </div>
-          <div>
-            <label htmlFor="password">password</label>
-            <Field
-              type="password"
-              id="password"
-              name="password"
-              className={css.input}
-            />
-          </div>
+        <Form action="#" className={css.form}>
+          <label htmlFor="email">email</label>
+          <Field type="email" id="login" name="email" className={css.input} />
+
+          <label htmlFor="password">password</label>
+          <Field
+            type="password"
+            id="password"
+            name="password"
+            className={css.field}
+          />
 
           <button type="submit">Log in</button>
         </Form>

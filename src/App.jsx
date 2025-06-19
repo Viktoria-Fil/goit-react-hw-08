@@ -23,8 +23,6 @@ const RegistrationPage = lazy(() =>
   import("./pages/RegistrationPage/RegistrationPage.jsx")
 );
 
-import LoginForm from "./components/LoginForm/LoginForm.jsx";
-
 const ContactsPage = lazy(() =>
   import("./pages/ContactsPage/ContactsPage.jsx")
 );

@@ -4,7 +4,7 @@ import css from "./LoginPage.module.css";
 export default function LoginPage() {
   return (
     <>
-      <p>Спочатку реєстрація, потім вводьте логін</p>
+      <p>Please, register :0 And after that you can login </p>
       <h2>Login</h2>
       <LoginForm />
     </>

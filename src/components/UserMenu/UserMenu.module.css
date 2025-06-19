@@ -1,0 +1,19 @@
+.user {
+  display: flex;
+  justify-content: flex-end;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.userData {
+  margin: 2px;
+  padding: 0;
+  text-align: right;
+}
+
+.userBtn {
+  width: 160px;
+  padding: 4px;
+}

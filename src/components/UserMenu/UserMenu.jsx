@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { selectUser } from "../../redux/auth/selectors";
-import { BiSolidUser } from "react-icons/bi";
+
 import css from "./UserMenu.module.css";
 import { logOut } from "../../redux/auth/operations";
 
@@ -11,15 +11,16 @@ export default function UserMenu() {
     dispatch(logOut());
   };
   return (
-    <div>
-      <div>
+    <div className={css.user}>
+      <div className={css.user}>
         <div>
-          <p> {dataUser.name}</p>
-          <p> {dataUser.email}</p>
+          <p className={css.userData}> {dataUser.name}</p>
+          <p className={css.userData}> {dataUser.email}</p>
         </div>
-        <BiSolidUser />
       </div>
-      <button onClick={handleLogOut}>LogOut</button>
+      <button className={css.userBtn} onClick={handleLogOut}>
+        LogOut
+      </button>
     </div>
   );
 }
